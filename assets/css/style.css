@@ -4,17 +4,51 @@
     --font: sans-serif;
 }
 
+/*global settings for page*/
+* {
+    background-color: black;
+}
+
 /*settings for header*/
 .header {
     color: var(--white);
     font-family: var(--font);
-    
+}
+
+.header h1 {
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+}
+
+/*settings for navigation list*/
+.header nav ul li{
+    display: inline;
+    color: var(--white);
+    font-family: var(--font);
+    padding: 20px;
+}
+
+a {
+    color: var(--white);
 }
 
 /*settings for main content*/
 .content {
     color: var(--white);
     font-family: var(--font);
+    text-align: center;
+}
+
+.contentinfo h2 {
+    text-decoration: underline;
+}
+
+/*settings for section - currently placeholder*/
+.section{
+    color: var(--white);
+    font-family: var(--font);
+    text-align: center;
 }
 
 /*settings for footer*/
