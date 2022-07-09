@@ -1,0 +1,25 @@
+/*variables*/
+:root {
+    --white: white;
+    --font: sans-serif;
+}
+
+/*settings for header*/
+.header {
+    color: var(--white);
+    font-family: var(--font);
+    
+}
+
+/*settings for main content*/
+.content {
+    color: var(--white);
+    font-family: var(--font);
+}
+
+/*settings for footer*/
+.footer{
+    color: var(--white);
+    text-align: center;
+    font-family: var(--font);
+}
