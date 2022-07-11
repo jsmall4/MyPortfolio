@@ -22,24 +22,31 @@
 }
 
 /*settings for navigation list*/
-#nav {
-    justify-content: center;
-}
 
-.header nav ul li{
-    display: inline;
+
+.nav ul li {
     color: var(--white);
     font-family: var(--font);
+    justify-content: center;
+    display: inline;
 }
 
 a {
     color: var(--white);
-    margin: auto;
+    margin: auto;;
 }
 
 /* container box settings for content section*/
 .about-me-container,
-.projects-container,
+.projects-container {
+    border: 15px solid white; border-style: groove;
+    width: 450px;
+    height: 500px;
+    padding: 15px;
+    float: left;
+    display: flex;
+}
+  
 .contact-container,
 .CV-container {
     border: 15px solid white; border-style: groove;
@@ -47,6 +54,8 @@ a {
     height: 500px;
     padding: 15px;
     margin: auto;
+    display: flex;
+    float: left;
 }
 
 
@@ -62,7 +71,7 @@ a {
 }
 
 /*settings for section - currently placeholder*/
-.section{
+.placeholder{
     color: var(--white);
     font-family: var(--font);
     text-align: center;
@@ -74,3 +83,10 @@ a {
     text-align: center;
     font-family: var(--font);
 }
+
+/*responsive screen settings- used to resize for all screens*/
+@media screen and (max-width: 768px) {
+    .contentinfo {
+      width: 100%;
+    }
+}    
