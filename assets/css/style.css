@@ -22,16 +22,33 @@
 }
 
 /*settings for navigation list*/
+#nav {
+    justify-content: center;
+}
+
 .header nav ul li{
     display: inline;
     color: var(--white);
     font-family: var(--font);
-    padding: 20px;
 }
 
 a {
     color: var(--white);
+    margin: auto;
 }
+
+/* container box settings for content section*/
+.about-me-container,
+.projects-container,
+.contact-container,
+.CV-container {
+    border: 15px solid white; border-style: groove;
+    width: 450px;
+    height: 500px;
+    padding: 15px;
+    margin: auto;
+}
+
 
 /*settings for main content*/
 .content {
