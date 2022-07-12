@@ -45,7 +45,7 @@
 .about-me-container {
     border: 15px solid white; border-style: groove;
     width: 450px;
-    height: 520px;
+    height: 550px;
     padding: 15px;
     flex: 1;
 }
@@ -53,7 +53,7 @@
 .projects-container {
     border: 15px solid white; border-style: groove;
     width: 450px;
-    height: 520px;
+    height: 550px;
     padding: 15px;
     flex: 1;
 }
@@ -62,7 +62,7 @@
 .contact-container {
     border: 15px solid white; border-style: groove;
     width: 450px;
-    height: 520px;
+    height: 550px;
     padding: 15px;
     flex: 1;
 }
@@ -70,7 +70,7 @@
 .CV-container {
     border: 15px solid white; border-style: groove;
     width: 450px;
-    height: 520px;
+    height: 550px;
     padding: 15px;
     flex: 1;
 }
