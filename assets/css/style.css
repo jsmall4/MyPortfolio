@@ -23,18 +23,23 @@
 
 /*settings for navigation list*/
 
+/* still not working how i want it too*/
+.nav-list {
+    display: flex;
+    gap: 1rem;
 
-.nav ul li {
-    color: var(--white);
-    font-family: var(--font);
-    justify-content: center;
-    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-a {
-    color: var(--white);
-    margin: auto;;
+.nav-list li {
+    display: inline-flex;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
+/*--------------------------------------*/
+
 
 /* container box settings for content section*/
 .about-me-container,
@@ -84,7 +89,7 @@ a {
     font-family: var(--font);
 }
 
-/*responsive screen settings- used to resize for all screens*/
+/* TO-DO!! responsive screen settings- used to resize for all screens*/
 @media screen and (max-width: 768px) {
     .contentinfo {
       width: 100%;
