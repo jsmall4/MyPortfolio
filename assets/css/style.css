@@ -76,10 +76,11 @@ text-decoration: underline;
 }
 
 .calculator {
-    border: 15px solid white; border-style: groove;
-    width: 450px;
+    border: 15px solid white; border-style: double;
+    width: 900px;
     height: 550px;
     padding: 15px;
+    margin: auto;
 }
 
 .slideshow {
@@ -116,6 +117,12 @@ text-decoration: underline;
     text-decoration: underline;
 }
 
+.SpecificProjects {
+    color: var(--white);
+    font-family: var(--font);
+    text-align: center;  
+}
+
 /*settings for section - currently placeholder*/
 .placeholder{
     color: var(--white);
@@ -130,17 +137,24 @@ text-decoration: underline;
     font-family: var(--font);
     padding: 20px;
     background-color: blue;
-
 }
 
 /* TO-DO!! responsive screen settings- used to resize for all screens*/
-@media screen (max-width: 600px) {
-    .content {
-        display: row;
-        width: 100%;
-    
-    .project-info {
-        direction: row;
-        width: 100%;
+
+.content {
+    @media (min-width: 700px) {
+    display: flexbox;
+    }  
+}
+
+.content {
+    @media (min-width: 992px) {
+    display: flexbox;
+    }
+}
+
+.content {
+    @media (min-width: 1392px) {
+    display: flexbox
     }
 }
