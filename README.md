@@ -12,7 +12,7 @@
 
 # Live URL: https://jsmall4.github.io/MyPortfolio/
 
-# Github: https://github.com/jsmall4
+# Github: https://github.com/jsmall4/MyPortfolio
 
 # Screenshot: "https://user-images.githubusercontent.com/64646369/179046807-0a08ee63-4aef-4adf-9b55-cef99fdd389b.png"
 
