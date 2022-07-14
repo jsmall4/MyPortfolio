@@ -1,160 +1,162 @@
 /*variables*/
 :root {
-    --white: white;
-    --font: sans-serif;
+  --white: white;
+  --font: sans-serif;
 }
 
 /*global settings for page*/
 * {
-    background-color: black;
+  background-color: black;
 }
+
 
 /*settings for header*/
 .header {
-    color: var(--white);
-    font-family: var(--font);
-    background-color: blue;
+  color: var(--white);
+  font-family: var(--font);
+  background-color: blue;
+  border: 5px green solid;
 }
 
 .header h1 {
-    font-weight: bolder;
-    font-size: 60px;
-    text-align: center;
-    background-color: blue;
-    padding-top:40px;
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+  background-color: blue;
+  padding-top: 40px;
 }
 
 /*settings for navigation list*/
+.nav {
+  border: 5px pink solid;
+  display: flex;
+  justify-content: space-between;
+}
 
-/* still not working how i want it too*/
+nav ul {
+  border: 5px red solid;
+}
+
 .nav li {
-    display: inline-flex;
-    padding: 50px;
-    font-size: 20px;
+  padding: 50px;
+  font-size: 20px;
 }
 
-
-/*--------------------------------------*/
-
-
-/* container box settings for content section - ungrouped to work on positioning*/
+/* settings for main content */
 .about-me-container {
-    border: 15px solid white; border-style: double;
-    width: 450px;
-    height: 1530px;
-    padding: 15px;
-    display: inline-flexbox; float: left;
-    position: static;
+  border: 15px solid white;
+  border-style: double;
+  width: 30%;
+  padding: 15px;
+  border: 5px green solid;
 }
 
+main {
+  display: flex;
+}
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  width: 70%;
+  border: 5px red solid;
+}
 
 .projects-container {
-    border: 15px solid white; border-style: groove;
-    width: 850px;
-    height: 500px;
-    position: relative; left: 510px;
+  border: 15px solid white;
+  border-style: groove;
+  height: 500px;
 }
 
-  
 .contact-container {
-    border: 15px solid white; border-style: groove;
-    width: 850px;
-    height: 500px;
-    position: relative; left: 510px;
+  border: 15px solid white;
+  border-style: groove;
+  height: 500px;
 }
 
 .CV-container {
-    border: 15px solid white; border-style: groove;
-    width: 850px;
-    height: 500px;
-    position: relative; left: 510px;
+  border: 15px solid white;
+  border-style: groove;
+  height: 500px;
 }
 
+/* settings for project section */
 .project-info h2 {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .calculator {
-    border: 15px solid white; border-style: double;
-    width: 900px;
-    height: 550px;
-    padding: 15px;
-    margin: auto;
+  border: 15px solid white;
+  border-style: double;
+  width: 900px;
+  height: 550px;
+  padding: 15px;
+  margin: auto;
 }
 
-.slideshow {
-    border: 15px solid white; border-style: groove;
-    width: 450px;
-    height: 550px;
-    padding: 15px;
-}
-
-.quiz {
-    border: 15px solid white; border-style: groove;
-    width: 450px;
-    height: 550px;
-    padding: 15px;
-}
-
+.slideshow,
+.quiz,
 .gymTracker {
-    border: 15px solid white; border-style: groove;
-    width: 450px;
-    height: 550px;
-    padding: 15px;
+  border: 15px solid white;
+  border-style: groove;
+  width: 450px;
+  height: 550px;
+  padding: 15px;
 }
-
-/*------------------------------------------------------------*/
 
 /*settings for main content*/
 .content {
-    color: var(--white);
-    font-family: var(--font);
-    text-align: center;
-} 
+  color: var(--white);
+  font-family: var(--font);
+  text-align: center;
+}
 
 .contentinfo h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .SpecificProjects {
-    color: var(--white);
-    font-family: var(--font);
-    text-align: center;  
+  color: var(--white);
+  font-family: var(--font);
+  text-align: center;
 }
 
 /*settings for section - currently placeholder*/
-.placeholder{
-    color: var(--white);
-    font-family: var(--font);
-    text-align: center;
+.placeholder {
+  color: var(--white);
+  font-family: var(--font);
+  text-align: center;
 }
 
 /*settings for footer*/
 .footer h4 {
-    color: var(--white);
-    text-align: center;
-    font-family: var(--font);
-    padding: 20px;
-    background-color: blue;
+  color: var(--white);
+  text-align: center;
+  font-family: var(--font);
+  padding: 20px;
+  background-color: blue;
 }
 
 /* TO-DO!! responsive screen settings- used to resize for all screens*/
 
 .content {
-    @media (min-width: 700px) {
+  @media (min-width: 700px) {
     display: flexbox;
-    }  
+  }
 }
 
 .content {
-    @media (min-width: 992px) {
+  @media (min-width: 992px) {
     display: flexbox;
-    }
+  }
 }
 
 .content {
-    @media (min-width: 1392px) {
-    display: flexbox
-    }
+  @media (min-width: 1392px) {
+    display: flexbox;
+  }
 }
