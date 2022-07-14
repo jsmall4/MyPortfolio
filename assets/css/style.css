@@ -13,6 +13,7 @@
 .header {
     color: var(--white);
     font-family: var(--font);
+    background-color: blue;
 }
 
 .header h1 {
@@ -75,6 +76,42 @@
     flex: 1;
 }
 
+.project-info h2 {
+text-decoration: underline;
+}
+
+.calculator {
+    border: 15px solid white; border-style: groove;
+    width: 450px;
+    height: 550px;
+    padding: 15px;
+    flex: 1;
+}
+
+.slideshow {
+    border: 15px solid white; border-style: groove;
+    width: 450px;
+    height: 550px;
+    padding: 15px;
+    flex: 1;
+}
+
+.quiz {
+    border: 15px solid white; border-style: groove;
+    width: 450px;
+    height: 550px;
+    padding: 15px;
+    flex: 1;
+}
+
+.gymTracker {
+    border: 15px solid white; border-style: groove;
+    width: 450px;
+    height: 550px;
+    padding: 15px;
+    flex: 1;
+}
+
 
 /*settings for main content*/
 .content {
@@ -100,11 +137,20 @@
     color: var(--white);
     text-align: center;
     font-family: var(--font);
+    padding: 20px;
+    background-color: blue;
 }
 
+
+
 /* TO-DO!! responsive screen settings- used to resize for all screens*/
-@media screen and (max-width: 768px) {
+@media screen (max-width: 600px) {
     .content {
-      width: 100%;
+        display: row;
+        width: 100%;
+    
+    .project-info {
+        direction: row;
+        width: 100%;
     }
-}    
+}
