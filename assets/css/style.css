@@ -9,13 +9,11 @@
   background-color: black;
 }
 
-
 /*settings for header*/
 .header {
   color: var(--white);
   font-family: var(--font);
   background-color: blue;
-  border: 5px green solid;
 }
 
 .header h1 {
@@ -28,31 +26,31 @@
 
 /*settings for navigation list*/
 .nav {
-  border: 5px pink solid;
   display: flex;
   justify-content: space-between;
-}
-
-nav ul {
-  border: 5px red solid;
+  flex-direction: column;
 }
 
 .nav li {
-  padding: 50px;
+  padding: 10px;
   font-size: 20px;
 }
 
 /* settings for main content */
 .about-me-container {
-  border: 15px solid white;
   border-style: double;
   width: 30%;
   padding: 15px;
-  border: 5px green solid;
+  flex: 1;
+}
+
+.about-me-container img {
+  width: 50%;
 }
 
 main {
   display: flex;
+  flex-wrap: wrap;
 }
 
 section {
@@ -63,7 +61,17 @@ section {
 
 .info {
   width: 70%;
-  border: 5px red solid;
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-cards {
+  flex: 0 1 300px;
+}
+
+.info-cards img {
+  width: 100%;
 }
 
 .projects-container {
@@ -143,20 +151,8 @@ section {
 
 /* TO-DO!! responsive screen settings- used to resize for all screens*/
 
-.content {
-  @media (min-width: 700px) {
-    display: flexbox;
-  }
-}
-
-.content {
-  @media (min-width: 992px) {
-    display: flexbox;
-  }
-}
-
-.content {
-  @media (min-width: 1392px) {
-    display: flexbox;
+@media screen and (min-width: 700px) {
+  .nav {
+    flex-direction: row;
   }
 }
