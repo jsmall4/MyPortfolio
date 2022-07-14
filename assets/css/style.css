@@ -20,60 +20,55 @@
     font-weight: bolder;
     font-size: 60px;
     text-align: center;
+    background-color: blue;
+    padding-top:40px;
 }
 
 /*settings for navigation list*/
 
 /* still not working how i want it too*/
-.nav-list {
-    display: flex;
-    gap: 1rem;
-
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.nav-list li {
+.nav li {
     display: inline-flex;
-    flex-grow: 1;
-    flex-shrink: 1;
+    padding: 50px;
+    font-size: 20px;
 }
+
+
 /*--------------------------------------*/
 
 
 /* container box settings for content section - ungrouped to work on positioning*/
 .about-me-container {
-    border: 15px solid white; border-style: groove;
+    border: 15px solid white; border-style: double;
     width: 450px;
-    height: 550px;
+    height: 1530px;
     padding: 15px;
-    flex: 1;
+    display: inline-flexbox; float: left;
+    position: static;
 }
+
+
 
 .projects-container {
     border: 15px solid white; border-style: groove;
-    width: 450px;
-    height: 550px;
-    padding: 15px;
-    flex: 1;
+    width: 850px;
+    height: 500px;
+    position: relative; left: 510px;
 }
 
   
 .contact-container {
     border: 15px solid white; border-style: groove;
-    width: 450px;
-    height: 550px;
-    padding: 15px;
-    flex: 1;
+    width: 850px;
+    height: 500px;
+    position: relative; left: 510px;
 }
 
 .CV-container {
     border: 15px solid white; border-style: groove;
-    width: 450px;
-    height: 550px;
-    padding: 15px;
-    flex: 1;
+    width: 850px;
+    height: 500px;
+    position: relative; left: 510px;
 }
 
 .project-info h2 {
@@ -85,7 +80,6 @@ text-decoration: underline;
     width: 450px;
     height: 550px;
     padding: 15px;
-    flex: 1;
 }
 
 .slideshow {
@@ -93,7 +87,6 @@ text-decoration: underline;
     width: 450px;
     height: 550px;
     padding: 15px;
-    flex: 1;
 }
 
 .quiz {
@@ -101,7 +94,6 @@ text-decoration: underline;
     width: 450px;
     height: 550px;
     padding: 15px;
-    flex: 1;
 }
 
 .gymTracker {
@@ -109,17 +101,16 @@ text-decoration: underline;
     width: 450px;
     height: 550px;
     padding: 15px;
-    flex: 1;
 }
 
+/*------------------------------------------------------------*/
 
 /*settings for main content*/
 .content {
     color: var(--white);
     font-family: var(--font);
     text-align: center;
-    display: flex;
-}
+} 
 
 .contentinfo h2 {
     text-decoration: underline;
@@ -133,15 +124,14 @@ text-decoration: underline;
 }
 
 /*settings for footer*/
-.footer{
+.footer h4 {
     color: var(--white);
     text-align: center;
     font-family: var(--font);
     padding: 20px;
     background-color: blue;
+
 }
-
-
 
 /* TO-DO!! responsive screen settings- used to resize for all screens*/
 @media screen (max-width: 600px) {
