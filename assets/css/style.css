@@ -67,7 +67,8 @@ section {
 }
 
 .info-cards {
-  flex: 0 1 300px;
+  flex: 0 1 325px;
+  justify-content: center;
 }
 
 .info-cards img {
