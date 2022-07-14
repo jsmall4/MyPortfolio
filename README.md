@@ -12,4 +12,10 @@
 
 # Git & Live URL: https://jsmall4.github.io/MyPortfolio/
 
-# Screenshot: https://github.com/jsmall4/MyPortfolio/issues/1#issue-1305093238
+# Screenshot: "https://user-images.githubusercontent.com/64646369/179046807-0a08ee63-4aef-4adf-9b55-cef99fdd389b.png"
+
+"https://user-images.githubusercontent.com/64646369/179046832-f22ab641-60e3-4a11-a3a0-ee333aae7a4f.png"
+
+"https://user-images.githubusercontent.com/64646369/179046837-7040ea5e-b60a-4c4e-a668-17a85f1f0b0f.png">
+
+"https://user-images.githubusercontent.com/64646369/179046841-2737b5d3-2962-4daa-a650-1448c2eadd8f.png">
