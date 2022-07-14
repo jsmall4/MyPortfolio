@@ -6,14 +6,10 @@
 
 # Motivation - The page should be accesible, resizeable and demonstrate use of semantic HTML where possible and effective CSS classes.
 
-# Actions Taken - Created a semantic HTML structure, used CSS classes and selectors to add style classes to elements of my page to make it look more professional. Use of media screen to make it responsive to different viewports and screen sizes. Use of a elements and href to link external images and links. Also use of CSS flex. 
+# Actions Taken - Created a semantic HTML structure, used CSS classes and selectors to add style classes to elements of my page to make it look more professional. Use of media screen to make it responsive to different viewports and screen sizes. Use of a elements and href to link external images and links. Also use of CSS flex.
 
 # Problems Solved - The page is responsive, shows working links and loads with clean semantic HTML and condensed CSS style sheet.
 
-# Git & Live URL:
+# Git & Live URL: https://jsmall4.github.io/MyPortfolio/
 
-TO DO!!
-
-# Screenshot: 
-
-TO DO!!
+# Screenshot: https://github.com/jsmall4/MyPortfolio/issues/1#issue-1305093238
