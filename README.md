@@ -10,7 +10,9 @@
 
 # Problems Solved - The page is responsive, shows working links and loads with clean semantic HTML and condensed CSS style sheet.
 
-# Git & Live URL: https://jsmall4.github.io/MyPortfolio/
+# Live URL: https://jsmall4.github.io/MyPortfolio/
+
+# Github: https://github.com/jsmall4
 
 # Screenshot: "https://user-images.githubusercontent.com/64646369/179046807-0a08ee63-4aef-4adf-9b55-cef99fdd389b.png"
 
